@@ -5,22 +5,22 @@
     <description>A website and blog for my .</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Mar 2018 23:45:38 -0600</pubDate>
-    <lastBuildDate>Thu, 08 Mar 2018 23:45:38 -0600</lastBuildDate>
+    <pubDate>Fri, 09 Mar 2018 00:32:19 -0600</pubDate>
+    <lastBuildDate>Fri, 09 Mar 2018 00:32:19 -0600</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>Mirror Mirror!</title>
         <description>&lt;p&gt;Mirror Mirror, who is the most elegant programmer of them all?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../../img/Cover.jpg&quot; alt=&quot;Cover Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/Cover.jpg&quot; alt=&quot;Cover Image&quot; class=&quot;rotate-right&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;WITTY ANSWER. This past summer I joined the group of Internet of Things enthusiasts and went and built my own smart mirror. For those unaware, a smart mirror is a double-sided mirror that sits in front of a monitor attached to a computer, raspberry pi being the popular choice. This post won’t dive into the technical aspects of the hardware or software, but rather to give an overview of the approach and hopefully provide some tips for future builders. If you’re looking for a more detailed guide on the hardware behind building a magic mirror, check out &lt;a href=&quot;http://blog.dylanjpierce.com/raspberrypi/magicmirror/tutorial/2015/12/27/build-a-magic-mirror.html&quot;&gt;Dylan Pierce’s&lt;/a&gt; blog post as well as &lt;a href=&quot;https://www.youtube.com/watch?v=fkVBAcvbrjU&amp;amp;t=&quot;&gt;this video&lt;/a&gt; by HackerHouse. If you’re looking for a guide on the software behind these these mirrors, checkout out the &lt;a href=&quot;https://github.com/MichMich/MagicMirror&quot;&gt;MagicMirror²&lt;/a&gt; project. MagicMirror² is an open-source, modular smart-mirror platform that has some built-in widgets and and a growing library of third party modules.&lt;/p&gt;
 
-&lt;h1 id=&quot;the-monitor&quot;&gt;The Monitor&lt;/h1&gt;
+&lt;h2 id=&quot;the-monitor&quot;&gt;The Monitor&lt;/h2&gt;
 &lt;p&gt;The monitor should to be your starting point. Since the size of your monitor orders the size of your frame, you need to select a size before you go out and start buying wood. I recommend going bigger if you can. I got lucky and found a bright 25” monitor on craigslist that worked great. Any type should do, but you’ll probably want to find one that’s fairly bright that has HDMI input. Oh, and you have to be content with ripping off the bezel of your monitor &amp;gt;:)&lt;/p&gt;
 
-&lt;h1 id=&quot;the-mirror&quot;&gt;The Mirror&lt;/h1&gt;
+&lt;h2 id=&quot;the-mirror&quot;&gt;The Mirror&lt;/h2&gt;
 &lt;p&gt;Choosing the type of mirror halted my progress for a while. Despite really only two main choices, glass and acrylic, it seemed like there were quite a few options out there. I This is what I determined for my build, and is subjective.&lt;/p&gt;
 
 &lt;table&gt;
@@ -70,7 +70,7 @@
 &lt;h1 id=&quot;the-box&quot;&gt;The Box&lt;/h1&gt;
 &lt;p&gt;Building the casing and front-facing frame is likely the most taxing and time consuming part of the build process. It’s helpful to have someone with at least some basic carpentry skills at your side for this part. Thankfully I had my stepfather, Dave to help me here. Many guides recommend using 2 x 4’s to build the casings. However, we went with a 1 x 3 approach which resulted in a really slim and sleek looking case. We used similar boards to build the frame for the front. I won’t go into the details here since the dimensions of your frame will be different than mine, but it’s best to not over-think and do whichever works best for the type of mirror you’d like to build. 0Stick to a rigid guide if need be.&lt;/p&gt;
 
-&lt;p&gt;While there are some select guides, ones I have not mentioned, that recommend using nails to secure your the boards. An easier approach is to use glue, liquid nails or otherwise, to secure the boards together and then use screws to secure. The screw sizes should dependent on the thickness of your boards, just ask your local home depot dude! What I’ve gather from the MM community is that glue is a better and more reliable solution. Someone with more woodworking skills can probably give you a better answer.&lt;/p&gt;
+&lt;p&gt;There are some select guides, ones I’ve not mentioned, that recommend using nails to secure your the boards. An easier approach is to use glue, liquid nails or otherwise, to secure the boards together and then use screws for additional security. The screw sizes should depend on the thickness of your boards, just ask your local home depot dude! What I’ve gather from the MM community is that glue is a better and more reliable solution.&lt;/p&gt;
 
 &lt;h1 id=&quot;the-software&quot;&gt;The software&lt;/h1&gt;
 &lt;p&gt;While you could use any old locally hosted app to run your mirror on, it’s hard to beat the platform that MagicMirror² provides. The community has an expanding number of modules for all kinds of&lt;/p&gt;
