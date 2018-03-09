@@ -5,22 +5,15 @@
     <description>A website and blog for my .</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Mar 2018 23:08:04 -0600</pubDate>
-    <lastBuildDate>Thu, 08 Mar 2018 23:08:04 -0600</lastBuildDate>
+    <pubDate>Thu, 08 Mar 2018 23:45:38 -0600</pubDate>
+    <lastBuildDate>Thu, 08 Mar 2018 23:45:38 -0600</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
         <title>Mirror Mirror!</title>
         <description>&lt;p&gt;Mirror Mirror, who is the most elegant programmer of them all?&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;![Cover Image]({ “/img/Cover.jpg”&lt;/td&gt;
-      &lt;td&gt;absolute_url })&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;img src=&quot;../../img/Cover.jpg&quot; alt=&quot;Cover Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;WITTY ANSWER. This past summer I joined the group of Internet of Things enthusiasts and went and built my own smart mirror. For those unaware, a smart mirror is a double-sided mirror that sits in front of a monitor attached to a computer, raspberry pi being the popular choice. This post won’t dive into the technical aspects of the hardware or software, but rather to give an overview of the approach and hopefully provide some tips for future builders. If you’re looking for a more detailed guide on the hardware behind building a magic mirror, check out &lt;a href=&quot;http://blog.dylanjpierce.com/raspberrypi/magicmirror/tutorial/2015/12/27/build-a-magic-mirror.html&quot;&gt;Dylan Pierce’s&lt;/a&gt; blog post as well as &lt;a href=&quot;https://www.youtube.com/watch?v=fkVBAcvbrjU&amp;amp;t=&quot;&gt;this video&lt;/a&gt; by HackerHouse. If you’re looking for a guide on the software behind these these mirrors, checkout out the &lt;a href=&quot;https://github.com/MichMich/MagicMirror&quot;&gt;MagicMirror²&lt;/a&gt; project. MagicMirror² is an open-source, modular smart-mirror platform that has some built-in widgets and and a growing library of third party modules.&lt;/p&gt;
 
@@ -76,8 +69,6 @@
 
 &lt;h1 id=&quot;the-box&quot;&gt;The Box&lt;/h1&gt;
 &lt;p&gt;Building the casing and front-facing frame is likely the most taxing and time consuming part of the build process. It’s helpful to have someone with at least some basic carpentry skills at your side for this part. Thankfully I had my stepfather, Dave to help me here. Many guides recommend using 2 x 4’s to build the casings. However, we went with a 1 x 3 approach which resulted in a really slim and sleek looking case. We used similar boards to build the frame for the front. I won’t go into the details here since the dimensions of your frame will be different than mine, but it’s best to not over-think and do whichever works best for the type of mirror you’d like to build. 0Stick to a rigid guide if need be.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;&amp;quot;img/Cover.jpg&amp;quot;&quot; alt=&quot;Cover Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;While there are some select guides, ones I have not mentioned, that recommend using nails to secure your the boards. An easier approach is to use glue, liquid nails or otherwise, to secure the boards together and then use screws to secure. The screw sizes should dependent on the thickness of your boards, just ask your local home depot dude! What I’ve gather from the MM community is that glue is a better and more reliable solution. Someone with more woodworking skills can probably give you a better answer.&lt;/p&gt;
 
