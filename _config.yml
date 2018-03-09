@@ -1,0 +1,67 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Quentin Goehrig
+email: quentin.360@hotmail.com
+description: A website and blog for my .
+url: https://renyuanz.github.io/leonids # the base hostname & protocol for your site
+keywords: ["Programming", "Java", "C#", "JavaScript"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          America/Chicago
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Quentin
+  avatar: leonids-logo.png
+  job: "Developer & Designer"
+  bio: "A frontend & backend developer who loves to design awesome things. Working for Trane in La Crosse, WI."
+  email: quentin.360@hotmail.com
+  disqus-shortname: qgoehrig
+  twitter:
+  facebook: #username
+  #google:
+    #plus: #username
+    #analytics: UA-62251910-2
+    #verify:
+    #ad-client:
+    #ad-slot:
+  bing-verify:
+  github: qgoehrig #username
+  stackoverflow: 5726006/qgoehrig #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: quentin-goehrig
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  telegram: #username
