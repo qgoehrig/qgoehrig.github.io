@@ -33,10 +33,10 @@ kramdown:
 ####################################
 #
 owner:
-  name: Quentin
-  avatar: leonids-logo.png
+  name: Quentin Goehrig
+  avatar: take34.jpg
   job: "Developer & Designer"
-  bio: "A frontend & backend developer who loves to design awesome things. Working for Trane in La Crosse, WI."
+  bio: "A fullstack developer who loves to build and design awesome things. Student at UW-L, working for Trane in La Crosse, WI."
   email: quentin.360@hotmail.com
   disqus-shortname: qgoehrig
   twitter:
@@ -48,8 +48,9 @@ owner:
     #ad-client:
     #ad-slot:
   bing-verify:
+  spotify: kwentin360
   github: qgoehrig #username
-  stackoverflow: 5726006/qgoehrig #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: 5726006/qgoehrig
   linkedin: quentin-goehrig
   xing: #username
   instagram: #username

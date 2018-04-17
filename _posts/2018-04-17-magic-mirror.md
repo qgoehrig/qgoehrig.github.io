@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Mirror Mirror!"
-date:   2018-03-04 15:07:19
-categories: [tutorial]
+title:  "Mirror Mirror! - An Overview for the Construction of a Magic Mirror"
+date:   2018-04-16 15:07:20
+excerpt: "An overview for the construction of a magic mirror"
+categories: [tutorial, writing]
 comments: true
+
 ---
+
 Mirror Mirror, who is the most elegant programmer of them all?
 
 ![Cover Image](../../img/Cover.jpg){:class="rotate-right"}

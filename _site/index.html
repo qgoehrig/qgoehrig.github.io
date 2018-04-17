@@ -51,11 +51,11 @@
 
 <div class="cover-card table-cell table-middle">
   
-  <img src="http://localhost:4000/img/leonids-logo.png" alt="" class="avatar">
+  <img src="http://localhost:4000/img/take34.jpg" alt="" class="avatar">
   
-  <a href="http://localhost:4000/" class="author_name">Quentin</a>
+  <a href="http://localhost:4000/" class="author_name">Quentin Goehrig</a>
   <span class="author_job">Developer & Designer</span>
-  <span class="author_bio mbm">A frontend & backend developer who loves to design awesome things. Working for Trane in La Crosse, WI.</span>
+  <span class="author_bio mbm">A fullstack developer who loves to build and design awesome things. Student at UW-L, working for Trane in La Crosse, WI.</span>
   <nav class="nav">
     <ul class="nav-list">
       <li class="nav-item">
@@ -79,13 +79,6 @@
             
       <li class="nav-item">
         <a href="http://localhost:4000/resume/">Resume</a>
-        
-          <span>/</span>
-        
-      </li>
-        
-      <li class="nav-item">
-        <a href="http://localhost:4000/tags/">Tags</a>
         
       </li>
        
@@ -112,7 +105,6 @@
     
     
     
-    
     <li><a href="http://linkedin.com/in/quentin-goehrig" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
     
     
@@ -130,6 +122,7 @@
     
     
     
+    <li><a href="http://spotify.com/user/kwentin360" class="social-link-item" target="_blank"><i class="fa fa-fw fa-spotify"></i></a></li>
   </ul>
 </div>
 
@@ -144,18 +137,23 @@
   <header class="post-header">
     <p class="post-meta">
       <span class="post-date">
-        4 MAR 2018
+        16 APR 2018
       </span>
       
       •
       
         <a class="post-cat" href="http://localhost:4000/categories/#tutorial">tutorial</a>
         
+        <span>/</span>
+        
+      
+        <a class="post-cat" href="http://localhost:4000/categories/#writing">writing</a>
+        
       
       
     </p>
     <h4>
-      <a href="http://localhost:4000/articles/2018-03/welcome-to-jekyll" class="post-title" title="Mirror Mirror!">Mirror Mirror!</a>
+      <a href="http://localhost:4000/articles/2018-04/magic-mirror" class="post-title" title="Mirror Mirror! - An Overview for the Construction of a Magic Mirror">Mirror Mirror! - An Overview for the Construction of a Magic Mirror</a>
       
     </h4>
 
@@ -166,71 +164,7 @@
     
     <div class="post-description">
       <p>
-        <p>Mirror Mirror, who is the most elegant programmer of them all?</p>
-
-<p><img src="../../img/Cover.jpg" alt="Cover Image" class="rotate-right" /></p>
-
-<p>WITTY ANSWER. This past summer I joined the group of Internet of Things enthusiasts and went and built my own smart mirror. For those unaware, a smart mirror is a double-sided mirror that sits in front of a monitor attached to a computer, raspberry pi being the popular choice. This post won’t dive into the technical aspects of the hardware or software, but rather to give an overview of the approach and hopefully provide some tips for future builders. If you’re looking for a more detailed guide on the hardware behind building a magic mirror, check out <a href="http://blog.dylanjpierce.com/raspberrypi/magicmirror/tutorial/2015/12/27/build-a-magic-mirror.html">Dylan Pierce’s</a> blog post as well as <a href="https://www.youtube.com/watch?v=fkVBAcvbrjU&amp;t=">this video</a> by HackerHouse. If you’re looking for a guide on the software behind these these mirrors, checkout out the <a href="https://github.com/MichMich/MagicMirror">MagicMirror²</a> project. MagicMirror² is an open-source, modular smart-mirror platform that has some built-in widgets and and a growing library of third party modules.</p>
-
-<h2 id="the-monitor">The Monitor</h2>
-<p>The monitor should to be your starting point. Since the size of your monitor orders the size of your frame, you need to select a size before you go out and start buying wood. I recommend going bigger if you can. I got lucky and found a bright 25” monitor on craigslist that worked great. Any type should do, but you’ll probably want to find one that’s fairly bright that has HDMI input. Oh, and you have to be content with ripping off the bezel of your monitor &gt;:)</p>
-
-<h2 id="the-mirror">The Mirror</h2>
-<p>Choosing the type of mirror halted my progress for a while. Despite really only two main choices, glass and acrylic, it seemed like there were quite a few options out there. I This is what I determined for my build, and is subjective.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">Acrylic</th>
-      <th style="text-align: center"> </th>
-      <th style="text-align: center">Glass</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">lighter</td>
-      <td style="text-align: center"><code class="highlighter-rouge">weight</code></td>
-      <td style="text-align: center">heavier</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">susceptible</td>
-      <td style="text-align: center"><code class="highlighter-rouge">"fun house" effect</code></td>
-      <td style="text-align: center">none</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">more</td>
-      <td style="text-align: center"><code class="highlighter-rouge">light passage</code></td>
-      <td style="text-align: center">less</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">less</td>
-      <td style="text-align: center"><code class="highlighter-rouge">price</code></td>
-      <td style="text-align: center">more</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">low</td>
-      <td style="text-align: center"><code class="highlighter-rouge">chance of breaking</code></td>
-      <td style="text-align: center">high</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">nope</td>
-      <td style="text-align: center"><code class="highlighter-rouge">smudge resistance</code></td>
-      <td style="text-align: center">nope</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>For these reasons, I chose to go with <a href="https://www.amazon.com/12-Acrylic-See-Through-Mirror-1mm/dp/B01G4MQ966/ref=sr_1_1?s=home-garden&amp;ie=UTF8&amp;qid=1520304107&amp;sr=1-1&amp;keywords=see%2Bthrough%2Bglass&amp;th=1">this 12” x 24”  3mm thick</a> acrylic mirror. I can see why some builders choose glass over acrylic. The rigidness of the glass prevents bends and warps in the mirror. This is that “fun house” effect I mentioned above. However, the light passage on most of these mirrors, even the ones that are specifically targeted towards magic mirror builders still didn’t seem to have enough light passage to create a display that really pops. I think <a href="https://www.youtube.com/watch?v=nWSolSxpRT4">this video</a> illustrates this well. There is a third option, mirror film, which is applied over a standard mirror. This seems to be a fairly popular choice for builders going for larger displays, like a big bathroom mirror. I didn’t investigate much into these, but you can find plenty of information about them in the <a href="https://magicmirror.builders/">MM builders forums</a>.</p>
-
-<h1 id="the-box">The Box</h1>
-<p>Building the casing and front-facing frame is likely the most taxing and time consuming part of the build process. It’s helpful to have someone with at least some basic carpentry skills at your side for this part. Thankfully I had my stepfather, Dave to help me here. Many guides recommend using 2 x 4’s to build the casings. However, we went with a 1 x 3 approach which resulted in a really slim and sleek looking case. We used similar boards to build the frame for the front. I won’t go into the details here since the dimensions of your frame will be different than mine, but it’s best to not over-think and do whichever works best for the type of mirror you’d like to build. 0Stick to a rigid guide if need be.</p>
-
-<p>There are some select guides, ones I’ve not mentioned, that recommend using nails to secure your the boards. An easier approach is to use glue, liquid nails or otherwise, to secure the boards together and then use screws for additional security. The screw sizes should depend on the thickness of your boards, just ask your local home depot dude! What I’ve gather from the MM community is that glue is a better and more reliable solution.</p>
-
-<h1 id="the-software">The software</h1>
-<p>While you could use any old locally hosted app to run your mirror on, it’s hard to beat the platform that MagicMirror² provides. The community has an expanding number of modules for all kinds of</p>
-
-
+        An overview for the construction of a magic mirror
       </p>
     </div>
     
@@ -243,18 +177,18 @@
   <header class="post-header">
     <p class="post-meta">
       <span class="post-date">
-        16 AUG 2013
+        16 APR 2018
       </span>
       
       •
       
-        <a class="post-cat" href="http://localhost:4000/categories/#code">code</a>
+        <a class="post-cat" href="http://localhost:4000/categories/#writing">writing</a>
         
       
       
     </p>
     <h4>
-      <a href="http://localhost:4000/articles/2013-08/code-highlighting-post" class="post-title" title="Syntax Highlighting Post">Syntax Highlighting Post</a>
+      <a href="http://localhost:4000/articles/2018-04/hello-world" class="post-title" title="Hello World! - About This Website">Hello World! - About This Website</a>
       
     </h4>
 
@@ -265,44 +199,10 @@
     
     <div class="post-description">
       <p>
-        Demo post displaying the various ways of highlighting code in Markdown.
-      </p>
-    </div>
-    
+        <p>Hello and welcome! You’ve made it to my personal website/blog. I’ll be using this platform as a channel to highlight some of my skills as a software engineer and to hopefully introduce some insightful blog posts about technology and anything else I feel like.</p>
 
-    
+<p>I likely won’t be posting all that often, as I’m still busy finishing up school at the University of Wisconsin-La Crosse and working as a software engineer at Trane. My intention is to make occasional, insightful blog posts for anything I might be interested in, so stay tuned and have great day!</p>
 
-</section>
-
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        12 AUG 2013
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#link post">link post</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2013-08/sample-link-post" class="post-title" title="Sample Link Post">Sample Link Post</a>
-      
-      <a class="post-title-link" href="http://renyuanz.github.io" target="_blank" title="Sample Link Post"><i class="fa fa-external-link"></i></a>
-      
-    </h4>
-
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        Try click on the link icon.
       </p>
     </div>
     
@@ -367,41 +267,6 @@
   <header class="post-header">
     <p class="post-meta">
       <span class="post-date">
-        22 MAY 2012
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#paragraph">paragraph</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2012-05/readability-post" class="post-title" title="Testing Readability with a Bunch of Text">Testing Readability with a Bunch of Text</a>
-      
-    </h4>
-
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        A ton of text to test readability.
-      </p>
-    </div>
-    
-
-    
-
-</section>
-
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
         10 MAR 2011
       </span>
       
@@ -447,7 +312,7 @@
 
 
         <footer>
-  &copy; 2018 Quentin. Powered by <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://github.com/renyuanz/leonids/">leonids theme</a> made with <i class="fa fa-heart heart-icon"></i>
+  &copy; 2018 Quentin Goehrig. Powered by <a href="http://jekyllrb.com/">Jekyll</a>, inspired by <a href="http://github.com/renyuanz/leonids/">leonids theme</a>, made with <i class="fa fa-heart heart-icon"></i> and <i class="fa fa-coffee coffee-icon"></i>
 </footer>
 
       </div>

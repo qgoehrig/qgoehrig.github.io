@@ -541,6 +541,9 @@ footer {
   footer .heart-icon {
     color: #f83e4b;
     text-shadow: 0 0 5px #fff, 0 0 10px #f83e4b; }
+  footer .coffee-icon {
+    color: #663300;
+    text-shadow: 0 0 5px #fff, 0 0 10px #333; }
 
 .related-articles {
   margin-top: 2em; }
