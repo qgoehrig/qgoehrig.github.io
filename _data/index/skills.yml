@@ -1,6 +1,5 @@
-# skills section data
+- name: Java
+  color: "#CB463A"
 
-label: Ability
-id : cs
-aspects: Motivation, GitHub, Java, HTML/CSS, Docker, Python
-percentage: 100, 65, 70, 60, 60, 55
+- name: HTML
+  color: "#F16529"

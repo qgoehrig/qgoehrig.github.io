@@ -54,7 +54,9 @@
   <img src="http://localhost:4000/img/take34.jpg" alt="" class="avatar">
   
   <a href="http://localhost:4000/" class="author_name">Quentin Goehrig</a>
-  <span class="author_job">Developer & Designer</span>
+  <span id="mangler" class="author_job typewrite" data-period=2000 data-words='[ "Developer", "Designer" ]'>
+    Developer
+  </span>
   <span class="author_bio mbm">A fullstack developer who loves to build and design awesome things. Student at UW-L, working for Trane in La Crosse, WI.</span>
   <nav class="nav">
     <ul class="nav-list">
@@ -141,50 +143,90 @@
 <div>
 Hello, I'm Quentin - a developer, among other things. My passion for problem solving sparked when I first started programming at the age of 15. Since then, I’ve broadened my developer profile from writing C++ games to implementing large-scale software projects for mechanical engineers to use across multiple site locations. I’ve undertaken development projects ranging from a scheduling application for a CS class to contributing to enterprise-level UI libraries. I’ve had a lot of fun participating in the ACM NCNA Regional Programming Contests. I’ve also had the great opportunity to work on an undergraduate research project at the University of Wisconsin-La Crosse involving AI techniques in pair with a biological/conservational problem regarding the Chestnut Blight Fungus.
 </div>
-        
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col">
-                <h1><span data-i18n="skills.my_skills">Projects</span></h1>
-
-
-    <div class="row">
-            <div class="col">
-                <h2 style="margin: 0">leonids</h2>
-                <p style="margin: 0">Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone.</p>
-
-                
-                <a href="https://github.com/renyuanz/leonids "><i class="fa fa-fw fa-github"></i>GitHub</a>
-                
-                
-
-            </div>
-    </div>
 
             </div>
         </div>
+
+        <div class="row">
+            <div class="col">
+                <h1><span data-i18n="skills.my_skills">Skills</span></h1>
+
+<!--
+Languages: Java, C#, C, JS/TS (ES6), CSS/SASS, SQL, Ruby
+Frameworks/Libs: Angular (2-5), .NET MVC, Web API 2, Entity Framework, jQuery,
+Tools: Git, Bash, Node.js, IIS, Azure, Maven, SQL Server, Inkscape  -->
+
+<div class="row skill-row">
+    <div class="col l4">
+        <h4>Languages</h4>
+        <div class="skill-list">
+            <div class="skill java">Java</div>
+            <div class="skill cs">C#</div>
+            <div class="skill c">C</div>
+            <div class="skill js">JS/TS (ES6)</div>
+            <div class="skill html">HTML</div>
+            <div class="skill css">CSS/SASS</div>
+            <div class="skill sql">SQL</div>
+            <div class="skill npm">Ruby</div>
+        </div>
     </div>
 
-    <div class="col l4 offset-l1">
-        <div class="row">
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <div class="col l4">
+        <h4>Frameworks/Libs</h4>
+        <div class="skill-list">
+            <div class="skill angular">Angular</div>
+            <div class="skill jq">jQuery</div>
+            <div class="skill net">.NET MVC</div>
+            <div class="skill webapi">.NET Web API</div>
+            <div class="skill ef">Entity Framework</div>
+            <div class="skill dl4j">DL4J</div>
+            <div class="skill javafx">JavaFX</div>
+        </div>
+    </div>
+
+    <div class="col l4">
+        <h4>Tools</h4>
+        <div class="skill-list">
+            <div class="skill bash"><span>Bash</span></div>
+            <div class="skill git"><span>Git</span></div>
+            <div class="skill node"><span>Node.js</span></div>
+            <div class="skill npm"><span>NPM</span></div>
+            <div class="skill azure"><span>Azure</span></div>
+            <div class="skill iis"><span>IIS</span></div>
+            <div class="skill sqls"><span>SQL Server</span></div>
+            <div class="skill inkscape"><span>Inkscape</span></div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <div class="skill-container">
+
+    <div class="skill" style="background-color: #CB463A">Java</div>
+
+    <div class="skill" style="background-color: #F16529">HTML</div>
+
+</div> -->
+
+
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 <h1><span data-i18n="skills.my_skills">Skills</span></h1>
-<canvas id="cs" height="500" width="500"></canvas>    
+<canvas id="" height="500" width="500"></canvas>
 <script>
-    var ctx = document.getElementById("cs");
+    var ctx = document.getElementById("");
     var data = {
-    labels: "Motivation, GitHub, Java, HTML/CSS, Docker, Python".split(","),
+    labels: "".split(","),
     datasets: [{
-        label: "Ability",
+        label: "",
         backgroundColor: "rgba(179,181,198,0.2)",
         borderColor: "#3385FF",
         pointBackgroundColor: "#3385FF",
         pointBorderColor: "#fff",
         pointHoverBackgroundColor: "#3385FF",
         pointHoverBorderColor: "#3385FF",
-        data: [100, 65, 70, 60, 60, 55]
+        data: []
         }]
     };
     var myRadarChart = new Chart(ctx, {
@@ -201,19 +243,28 @@ Hello, I'm Quentin - a developer, among other things. My passion for problem sol
         legend: {display: false},
     }
     });
-</script>    
+</script> -->
+
+            </div>
         </div>
+    </div>
+
+    <div class="col l4 offset-l1">
         <div class="row">
             <h1><span data-i18n="skills.my_skills">Bio</span></h1>
 
 <div class="archive">
   <div class="timeline" id="timeline">
     
-          <div class="archive-title"><div class="archive-year"><strong>July 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i></strong> Programming Internship @ <a href="http://www.google.com/">Google</a></div></div>
+          <div class="archive-title"><div class="archive-year"><strong>Oct 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i></strong> Modeling & Simulation Intern @ <a href="http://www.trane.com/index.aspx">Trane</a></div></div>
     
-          <div class="archive-title"><div class="archive-year"><strong>May 2014 - July 2017</strong> Web Assistant @ <a href="http://www.facebook.com/">Facebook</a></div></div>
+          <div class="archive-title"><div class="archive-year"><strong>June 2017 - August 2017</strong> UI/UX Software Developer Intern @ <a href="https://www.thomsonreuters.com/en.html">Thomson Reuters</a></div></div>
     
-          <div class="archive-title"><div class="archive-year"><strong>2010 - 2014</strong> Software Developer @ <a href="https://www.sap.com/">SAP</a></div></div>
+          <div class="archive-title"><div class="archive-year"><strong>2010 - 2014</strong> Software Engineering Intern (UI/UX) @ <a href="https://www.guidancesoftware.com/">Guidance Software</a></div></div>
+    
+          <div class="archive-title"><div class="archive-year"><strong>May 2016 - August 2016</strong> Software Engineering Intern (UI/UX) @ <a href="https://msdn.microsoft.com/en-us/microsoftstudentpartners.aspx">Microsoft</a></div></div>
+    
+          <div class="archive-title"><div class="archive-year"><strong>June 2013 - January 2015</strong> Microsoft Sales Consultant @ <a href="http://www.bestbuy.com/">Best Buy</a></div></div>
     
   </div>
 </div>    
@@ -225,17 +276,17 @@ Hello, I'm Quentin - a developer, among other things. My passion for problem sol
 <div class="archive">
   <div class="timeline" id="timeline">
     
-          <div class="archive-title bio"><div class="archive-year"><strong>2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i></strong> <a href="http://web.mit.edu/">Massachusets Instutite of Technology</a></div></div>
-    
-          <div class="archive-title bio"><div class="archive-year"><strong>2007 - 2011</strong> <a href="http://www.harvard.edu/">Harvard</a></div></div>
+          <div class="archive-title bio"><div class="archive-year"><strong>2014 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i> </strong><a href="https://www.uwlax.edu/">University of Wisconsin-La Crosse</a></div></div>
     
   </div>
-</div>    
+</div>
+
         </div>
     </div>
-    
+
 
 </div>
+
         <footer>
   &copy; 2018 Quentin Goehrig. Powered by <a href="http://jekyllrb.com/">Jekyll</a>, inspired by <a href="http://github.com/renyuanz/leonids/">leonids theme</a>, made with <i class="fa fa-heart heart-icon"></i> and <i class="fa fa-coffee coffee-icon"></i>
 </footer>
@@ -243,7 +294,7 @@ Hello, I'm Quentin - a developer, among other things. My passion for problem sol
       </div>
     </div>
   </div>
-  <script type="text/javascript" src="http://localhost:4000/js/jquery-3.2.1.min.js"></script>
+  <!-- <script type="text/javascript" src="http://localhost:4000/js/jquery-3.2.1.min.js"></script> -->
 <script type="text/javascript" src="http://localhost:4000/js/main.js"></script>
 
 

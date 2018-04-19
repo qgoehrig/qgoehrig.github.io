@@ -1,6 +1,66 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 <h1><span data-i18n="skills.my_skills">Skills</span></h1>
-<canvas id="{{ site.data.index.skills.id }}" height="500" width="500"></canvas>    
+
+<!--
+Languages: Java, C#, C, JS/TS (ES6), CSS/SASS, SQL, Ruby
+Frameworks/Libs: Angular (2-5), .NET MVC, Web API 2, Entity Framework, jQuery,
+Tools: Git, Bash, Node.js, IIS, Azure, Maven, SQL Server, Inkscape  -->
+
+<div class="row skill-row">
+    <div class="col l4">
+        <h4>Languages</h4>
+        <div class="skill-list">
+            <div class="skill java">Java</div>
+            <div class="skill cs">C#</div>
+            <div class="skill c">C</div>
+            <div class="skill js">JS/TS (ES6)</div>
+            <div class="skill html">HTML</div>
+            <div class="skill css">CSS/SASS</div>
+            <div class="skill sql">SQL</div>
+            <div class="skill npm">Ruby</div>
+        </div>
+    </div>
+
+    <div class="col l4">
+        <h4>Frameworks/Libs</h4>
+        <div class="skill-list">
+            <div class="skill angular">Angular</div>
+            <div class="skill jq">jQuery</div>
+            <div class="skill net">.NET MVC</div>
+            <div class="skill webapi">.NET Web API</div>
+            <div class="skill ef">Entity Framework</div>
+            <div class="skill dl4j">DL4J</div>
+            <div class="skill javafx">JavaFX</div>
+        </div>
+    </div>
+
+    <div class="col l4">
+        <h4>Tools</h4>
+        <div class="skill-list">
+            <div class="skill bash"><span>Bash</span></div>
+            <div class="skill git"><span>Git</span></div>
+            <div class="skill node"><span>Node.js</span></div>
+            <div class="skill npm"><span>NPM</span></div>
+            <div class="skill azure"><span>Azure</span></div>
+            <div class="skill iis"><span>IIS</span></div>
+            <div class="skill sqls"><span>SQL Server</span></div>
+            <div class="skill inkscape"><span>Inkscape</span></div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <div class="skill-container">
+{% for skill in site.data.index.skills %}
+    <div class="skill" style="background-color: {{skill.color}}">{{skill.name}}</div>
+{% endfor %}
+</div> -->
+
+
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+<h1><span data-i18n="skills.my_skills">Skills</span></h1>
+<canvas id="{{ site.data.index.skills.id }}" height="500" width="500"></canvas>
 <script>
     var ctx = document.getElementById("{{ site.data.index.skills.id }}");
     var data = {
@@ -30,4 +90,4 @@
         legend: {display: false},
     }
     });
-</script>
+</script> -->

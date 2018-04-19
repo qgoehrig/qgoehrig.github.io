@@ -1,0 +1,116 @@
+.typewrite {
+  color: #fff;
+  text-decoration: none;
+  .wrap {
+      text-decoration: none;
+  }
+}
+
+
+.skill-row {
+    margin: 0 4px;
+    h4 {
+        text-align: center;
+    }
+}
+
+.skill-list {
+    margin: 0 8px;
+    text-align: center;
+}
+
+.skill {
+    color: $q-white;
+    line-height: 36px;
+    border-radius: 14px;
+    margin: 8px 0;
+    white-space: nowrap;
+    font-size: 1.1em;
+    transition: all .2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.3) rotate(-4deg);
+    mix-blend-mode: difference;
+  }
+
+  &.java {
+    background-color: $java-col;
+  }
+  &.html {
+    background-color: $html-col;
+  }
+  &.css {
+    background-color: $css-col;
+  }
+  &.js {
+    background-color: $js-col;
+    //color: $q-black;
+  }
+  &.cs {
+    background-color: $cs-col;
+  }
+  &.c {
+    background-color: $c-col;
+  }
+  &.sql {
+    background-color: $sql-col;
+  }
+  &.haskell {
+    background-color: $haskell-col;
+  }
+  &.angular {
+    //color: $q-white;
+    background-color: $angular-col;
+  }
+  &.net {
+    background-color: $net-col;
+  }
+  &.ef {
+    background-color: $ef-col;
+    //color: $q-black;
+  }
+  &.jq {
+    //color: $q-white;
+    background-color: $jq-col;
+  }
+  &.anime {
+    background-color: $anime-col;
+    //color: $q-black;
+  }
+  &.react {
+    background-color: $react-col;
+  }
+  &.bash {
+    background-color: $bash-col
+  }
+  &.git {
+    background-color: $git-col;
+  }
+  &.node {
+    background-color: $node-col;
+  }
+  &.npm {
+    background-color: $npm-col;
+  }
+  &.sqls {
+    background-color: $sqls-col;
+  }
+  &.inkscape {
+    background-color: $inkscape-col;
+  }
+  &.azure {
+    background-color: $azure-col;
+  }
+  &.iis {
+      background-color: $iis-col;
+  }
+  &.webapi {
+      background-color: $webapi-col;
+  }
+  &.dl4j {
+      background-color: $dl4j-col;
+  }
+  &.javafx {
+      background-color: $javafx-col;
+  }
+}
