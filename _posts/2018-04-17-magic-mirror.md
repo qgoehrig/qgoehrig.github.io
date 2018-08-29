@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Mirror Mirror! - An Overview for the Construction of a Magic Mirror"
+title:  "Mirror Mirror! - How I Build a Magic Mirror"
 date:   2018-04-16 15:07:20
-excerpt: "An overview for the construction of a magic mirror"
+excerpt: "An overview for the development and design choices that went into the construction of an IOT smart mirror"
 categories: [tutorial, writing]
-comments: true
+comments: false
+image:
+  feature: ../../img/snow-white.jpg
 
 ---
 

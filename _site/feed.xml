@@ -5,12 +5,12 @@
     <description>A website and blog for my .</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Apr 2018 02:16:33 -0500</pubDate>
-    <lastBuildDate>Thu, 19 Apr 2018 02:16:33 -0500</lastBuildDate>
+    <pubDate>Wed, 29 Aug 2018 02:32:43 -0500</pubDate>
+    <lastBuildDate>Wed, 29 Aug 2018 02:32:43 -0500</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
-        <title>Mirror Mirror! - An Overview for the Construction of a Magic Mirror</title>
+        <title>Mirror Mirror! - How I Build a Magic Mirror</title>
         <description>&lt;p&gt;Mirror Mirror, who is the most elegant programmer of them all?&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../../img/Cover.jpg&quot; alt=&quot;Cover Image&quot; class=&quot;rotate-right&quot; /&gt;&lt;/p&gt;
