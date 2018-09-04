@@ -85,13 +85,13 @@
     </ul>
   </nav>
   <script type="text/javascript">
-  // based on http://stackoverflow.com/a/10300743/280842
+  // based on http://stack.com/a/10300743/280842
   function gen_mail_to_link(hs, subject) {
     var lhs,rhs;
     var p = hs.split('@');
     lhs = p[0];
     rhs = p[1];
-    document.write("<a class=\"social-link-item\" target=\"_blank\" href=\"mailto");
+    document.write("<a class=\"social-link-item email\" target=\"_blank\" href=\"mailto");
     document.write(":" + lhs + "@");
     document.write(rhs + "?subject=" + subject + "\"><i class=\"fa fa-fw fa-envelope\"></i><\/a>");
   }
@@ -100,21 +100,17 @@
   <ul>
     
       <li>
-      <script>gen_mail_to_link('quentin.360@hotmail.com', 'Hello from website');</script>
+      <script>gen_mail_to_link('quentin.360@hotmail.com', 'Hi Quentin');</script>
       </li>
     
     
     
-    <li><a href="http://linkedin.com/in/quentin-goehrig" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
+    <li><a href="http://linkedin.com/in/quentin-goehrig" class="social-link-item linkedin" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
     
     
     
-    <li><a href="http://github.com/qgoehrig" class="social-link-item" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
-    <li><a href="http://stackoverflow.com/users/5726006/qgoehrig" class="social-link-item" target="_blank"><i class="fa fa-fw fa-stack-overflow"></i></a></li>
-    
-    
-    
-    
+    <li><a href="http://github.com/qgoehrig" class="social-link-item github" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
+    <li><a href="http://stackoverflow.com/users/5726006/qgoehrig" class="social-link-item stackoverflow" target="_blank"><i class="fa fa-fw fa-stack-overflow"></i></a></li>
     
     
     
@@ -122,7 +118,11 @@
     
     
     
-    <li><a href="http://spotify.com/user/kwentin360" class="social-link-item" target="_blank"><i class="fa fa-fw fa-spotify"></i></a></li>
+    
+    
+    
+    
+    <li><a href="http://spotify.com/user/kwentin360" class="social-link-item spotify" target="_blank"><i class="fa fa-fw fa-spotify"></i></a></li>
   </ul>
 </div>
 
@@ -132,28 +132,24 @@
     </div>
     <div class="col s12 m9">
       <div class="post-listing">
-        
+          <div class="col s12 m9">
+              
 <section class="post">
   <header class="post-header">
     <p class="post-meta">
       <span class="post-date">
-        16 APR 2018
+        15 AUG 2018
       </span>
       
       •
       
-        <a class="post-cat" href="http://localhost:4000/categories/#tutorial">tutorial</a>
-        
-        <span>/</span>
-        
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#writing">writing</a>
+        <a class="post-cat" href="http://localhost:4000/categories/#iot">iot</a>
         
       
       
     </p>
     <h4>
-      <a href="http://localhost:4000/articles/2018-04/magic-mirror" class="post-title" title="Mirror Mirror! - How I Build a Magic Mirror">Mirror Mirror! - How I Build a Magic Mirror</a>
+      <a href="http://localhost:4000/articles/2018-08/magic-mirror" class="post-title" title="Mirror Mirror! - How I Build a Magic Mirror">Mirror Mirror! - How I Build a Magic Mirror</a>
       
     </h4>
 
@@ -170,16 +166,6 @@
     
 
     
-    <div class="post-image-feature">
-      <img src=
-      
-      "http://localhost:4000/img/../../img/snow-white.jpg"
-      
-      alt="Mirror Mirror! - How I Build a Magic Mirror feature image">
-
-      
-    </div><!-- /.image-wrap -->
-    
 
 </section>
 
@@ -192,7 +178,7 @@
       
       •
       
-        <a class="post-cat" href="http://localhost:4000/categories/#writing">writing</a>
+        <a class="post-cat" href="http://localhost:4000/categories/#meta">meta</a>
         
       
       
@@ -221,110 +207,12 @@
 
 </section>
 
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        23 MAY 2013
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#paragraph">paragraph</a>
-        
-        <span>/</span>
-        
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#feature photo">feature photo</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2013-05/readability-feature-post" class="post-title" title="Post with Large Feature Image and Text">Post with Large Feature Image and Text</a>
-      
-    </h4>
 
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        Custom written post descriptions are the way to go... if you're not lazy.
-      </p>
-    </div>
-    
-
-    
-    <div class="post-image-feature">
-      <img src=
-      
-      "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250"
-      
-      alt="Post with Large Feature Image and Text feature image">
-
-      
-      <span class="image-credit">Photo Credit: <a href="https://unsplash.com/photos/oMpAz-DN-9I">Greg Rakozy</a></span>
-      
-    </div><!-- /.image-wrap -->
-    
-
-</section>
-
-<section class="post">
-  <header class="post-header">
-    <p class="post-meta">
-      <span class="post-date">
-        10 MAR 2011
-      </span>
-      
-      •
-      
-        <a class="post-cat" href="http://localhost:4000/categories/#hello world">hello world</a>
-        
-      
-      
-    </p>
-    <h4>
-      <a href="http://localhost:4000/articles/2011-03/sample-post" class="post-title" title="Sample Post">Sample Post</a>
-      
-    </h4>
-
-    
-
-    </header>
-
-    
-    <div class="post-description">
-      <p>
-        Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.
-      </p>
-    </div>
-    
-
-    
-    <div class="post-image-feature">
-      <img src=
-      
-      "https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250"
-      
-      alt="Sample Post feature image">
-
-      
-      <span class="image-credit">Photo Credit: <a href="https://unsplash.com/photos/Ki0dpxd3LGc">thomas shellberg</a></span>
-      
-    </div><!-- /.image-wrap -->
-    
-
-</section>
-
-
-        <footer>
+              <footer>
   &copy; 2018 Quentin Goehrig. Powered by <a href="http://jekyllrb.com/">Jekyll</a>, inspired by <a href="http://github.com/renyuanz/leonids/">leonids theme</a>, made with <i class="fa fa-heart heart-icon"></i> and <i class="fa fa-coffee coffee-icon"></i>
 </footer>
 
+          </div>
       </div>
     </div>
   </div>

@@ -1509,6 +1509,16 @@ pre code {
         color: #1d1b4d; }
         .social-links ul li a.social-link-item:hover, .social-links ul li a.social-link-item:focus {
           color: #312e82; }
+        .social-links ul li a.social-link-item.email:hover, .social-links ul li a.social-link-item.email:focus {
+          color: #616161; }
+        .social-links ul li a.social-link-item.linkedin:hover, .social-links ul li a.social-link-item.linkedin:focus {
+          color: #00a6fc; }
+        .social-links ul li a.social-link-item.github:hover, .social-links ul li a.social-link-item.github:focus {
+          color: #131313; }
+        .social-links ul li a.social-link-item.spotify:hover, .social-links ul li a.social-link-item.spotify:focus {
+          color: #55e789; }
+        .social-links ul li a.social-link-item.stackoverflow:hover, .social-links ul li a.social-link-item.stackoverflow:focus {
+          color: #f7a768; }
 
 .nav-list {
   margin: 0;

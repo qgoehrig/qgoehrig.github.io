@@ -47,13 +47,11 @@ $base-space-unit:             1.5em;
 $hr-border-color:             rgba(0,0,0,.1) !default;
 $hr-border-width:             $border-width;
 
-//
-// Colors
-//
-
+// Custom
 $q-white: #fafafa;
 $q-black: #333333;
 
+// Skills
 $java-col: #CB463A;
 $html-col: #F16529;
 $js-col: #F0DB4F;
@@ -79,6 +77,14 @@ $iis-col: #043e54;
 $webapi-col: #90b231;
 $dl4j-col: #000000;
 $javafx-col: #53829e;
+
+// Social
+$email: #3d3d3d;
+$linkedin: #0077B5;
+$github: #010101;
+$stackoverflow: #F48024;
+$spotify: #1ED760;
+
 
 $text-color:       rgba(0, 0, 0, 0.87) !default;
 $background-color: #f5f5f5;

@@ -65,6 +65,26 @@
         &:focus {
           color: lighten($secondary, 14%);
         }
+        &.email:hover,
+        &.email:focus {
+          color: lighten($email, 14%);
+        }
+        &.linkedin:hover,
+        &.linkedin:focus {
+          color: lighten($linkedin, 14%);
+        }
+        &.github:hover,
+        &.github:focus {
+          color: lighten($github, 7%);
+        }
+        &.spotify:hover,
+        &.spotify:focus {
+          color: lighten($spotify, 14%);
+        }
+        &.stackoverflow:hover,
+        &.stackoverflow:focus {
+          color: lighten($stackoverflow, 14%);
+        }
       }
     }
   }

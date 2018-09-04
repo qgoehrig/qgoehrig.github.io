@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello World! - About This Website"
-categories: [writing]
+categories: [meta]
 comments: false
 ---
 
