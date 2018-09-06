@@ -1,0 +1,26 @@
+<div class="navy-line"></div>
+<h1><span data-i18n="experience.my_experience">Experience</span></h1>
+
+<div class="row set-size charts-container">
+
+    {% for exp in site.data.index.experience %}
+        <div class="col s12 m3">
+            <div style="font-size:15px; text-align:center">{{ exp.name }}</div>
+            <div class="pie-wrapper progress-{{exp.confidence}}">
+              <span class="label">{{exp.confidence}}<span class="smaller">%</span></span>
+              <div class="pie">
+                <div class="left-side half-circle"></div>
+                <div class="right-side half-circle"></div>
+              </div>
+            </div>
+        </div>
+            <!-- <p>{{ exp.name }}</p>
+            <div class="experience-container">
+                <div class="experience-block" background-color={{exp.color}}>
+                    {{ exp.confidence }}%
+                </div>
+            </div> -->
+        <!-- </div> -->
+    {% endfor %}
+
+</div>

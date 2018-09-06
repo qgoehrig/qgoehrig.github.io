@@ -1,0 +1,15 @@
+- name: Front-End Development
+  color: "#CB463A"
+  confidence: 95
+
+- name: Back-End Development
+  color: "#CB463A"
+  confidence: 85
+
+- name: Interpersonal / Teamwork
+  color: "#CB463A"
+  confidence: 85
+
+- name: DevOps / CI
+  color: "#CB463A"
+  confidence: 80
