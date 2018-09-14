@@ -2,7 +2,7 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name: Trane
   link: http://www.trane.com/index.aspx
-  date: Oct 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  date: Oct. 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
   job: Modeling & Simulation Intern
 
 - name: Thomson Reuters
@@ -12,15 +12,15 @@
 
 - name: Guidance Software
   link: https://www.guidancesoftware.com/
-  date: 2010 - 2014
+  date: May 2016 - Aug. 2016
   job: Software Engineering Intern (UI/UX)
 
 - name: Microsoft
   link: https://msdn.microsoft.com/en-us/microsoftstudentpartners.aspx
-  date: May 2016 - August 2016
+  date: Nov. 2016 - Aug. 2016
   job: Microsoft Student Partner
 
 - name: Best Buy
   link: http://www.bestbuy.com/
-  date: June 2013 - January 2015
+  date: Jun. 2013 - Jan. 2015
   job: Microsoft Sales Consultant

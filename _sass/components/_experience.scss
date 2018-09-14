@@ -143,10 +143,6 @@ $label-font-size-redo: $default-size * 4;
     @include draw-progress(60, #9b59b6);
   }
 
-  &.progress-90 {
-    @include draw-progress(90, #e67e22);
-  }
-
   &.progress-80 {
     @include draw-progress(80, #42b983);
   }
@@ -157,6 +153,14 @@ $label-font-size-redo: $default-size * 4;
 
   &.progress-95 {
     @include draw-progress(95, #42b983);
+  }
+
+  &.progress-90 {
+    @include draw-progress(90, #42b983);
+  }
+
+  &.progress-100 {
+    @include draw-progress(100, #42b983);
   }
 }
 
@@ -188,4 +192,15 @@ $label-font-size-redo: $default-size * 4;
   &.progress-88 {
     @include draw-progress--solid(88, #3498db, $bg-color);
   }
+}
+
+.q-pies {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.q-pie {
+    flex: 1;
 }
