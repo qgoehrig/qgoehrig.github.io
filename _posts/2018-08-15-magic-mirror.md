@@ -2,7 +2,7 @@
 layout: post
 title:  "Mirror Mirror! - How I Built a Magic Mirror"
 date:   2018-08-15 15:07:20
-excerpt: "An overview for the development and design choices that went into the creation of an IOT smart mirror"
+excerpt: "An overview of the development and design choices that went into the creation of an IOT smart mirror"
 categories: [iot]
 comments: false
 
