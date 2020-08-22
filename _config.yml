@@ -35,8 +35,8 @@ kramdown:
 owner:
   name: Quentin Goehrig
   avatar: sketch-1.png
-  job: "Developer & Designer"
-  bio: "Developer, designer, problem solver. I love to build things. Student at the University of Wisconsin-La Crosse, working for Trane in La Crosse, WI."
+  job: "Software Engineer"
+  bio: "I like to build things. Some of my passions are technology, music, and gaming."
   email: quentin.360@hotmail.com
   disqus-shortname: qgoehrig
   twitter:
@@ -60,7 +60,7 @@ owner:
   foursquare: #username
   steam: #username
   dribbble: #username
-  youtube: #username
+  youtube: UCafslaUL_-LELwEqqmfEedA
   soundcloud: #username
   weibo: #username
   flickr: #username
