@@ -85,6 +85,10 @@
         &.stackoverflow:focus {
           color: lighten($stackoverflow, 14%);
         }
+        &.youtube:hover,
+        &.youtube:focus {
+          color: lighten($youtube, 14%);
+        }
       }
     }
   }
