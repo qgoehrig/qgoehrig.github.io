@@ -1,0 +1,166 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "work": "",
+    "projects": ""
+  },
+  "basics": {
+    "name": "Quentin Goehrig",
+    "email": "quentin.360@hotmail.com",
+    "phone": "2627511370",
+    "website": "https://qgoehrig.github.io"
+  },
+  "education": [
+    {
+      "institution": "University of Wisconsin-La Crosse",
+      "location": "La Crosse, WI",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "Sep 2014",
+      "endDate": "Dec 2018"
+    }
+  ],
+  "work": [
+    {
+      "location": "San Diego, CA",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "December 2018",
+      "endDate": "Present",
+      "highlights": [
+        "Design, build, and maintain a suite of software products used to support CGM products throughout product life-cycle, notably in R&D and clinical trials.",
+        "Maintain the CI infrastructure for the firmware and firmware tools teams.",
+        "Lead junior developers and interview for open requisitions."
+      ],
+      "company": "Dexcom"
+    },
+    {
+      "location": "La Crosse, WI",
+      "position": "Modeling & Simulation Intern",
+      "website": "",
+      "startDate": "November 2017",
+      "endDate": "December 2018",
+      "highlights": [
+        "Developed and maintained an application for engineers, technicians, and management for commercial HVAC assembly.",
+        "Switched the team from SVN to Git VC. Implemented a TFS server for CI."
+      ],
+      "company": "Trane (Ingersoll Rand)"
+    },
+    {
+      "highlights": [
+        "Developed components for an internal UI library to be used across a new wave of Thomson Reuters applications.",
+        "Worked in Agile and Kanban teams to implement forementioned library components into two new Thomson Reuters applications.",
+        "Hosted developer learning sessions relating to Angular practices"
+      ],
+      "company": "Thomson Reuters",
+      "position": "UI/UX Software Developer Intern",
+      "location": "Brookfield, WI",
+      "startDate": "June 2017",
+      "endDate": "August 2017"
+    },
+    {
+      "highlights": [
+        "Worked with the R&D team to help develop a Tableau Forensic Imager. Mostly worked on UI and helped with some business logic."
+      ],
+      "company": "Guidance Software",
+      "position": "Software Engineering Intern (UI/UX)",
+      "location": "Waukesha, WI",
+      "startDate": "May 2016",
+      "endDate": "August 2016"
+    },
+    {
+      "highlights": [
+        "Hosted monthly on-campus tech workshops and events.",
+        "Worked alongside Microsoft professionals to bring new and exciting programming content to students.",
+        "Expanded an existing community of students and faculty that have a love for technology."
+      ],
+      "company": "Microsoft",
+      "position": "Microsoft Student Partner",
+      "location": "La Crosse, WI",
+      "startDate": "November 2015",
+      "endDate": "May 2016"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "C#",
+        "Java",
+        "Groovy",
+        "Python",
+        "Swift",
+        "C",
+        "SQL",
+        "TS/JS",
+        "HTML/CSS/SCSS"
+      ],
+      "name": "Languages"
+    },
+    {
+      "keywords": [
+        ".NET (Framework, Core)",
+        "WPF",
+        "Angular",
+        "EF",
+        "jQuery"
+      ],
+      "name": "Frameworks/Libraries"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Bash",
+        "Jenkins",
+        "Docker",
+        "SQL Server",
+        "IIS",
+        "Azure",
+        "Jira",
+        "Artifactory"
+      ],
+      "name": "Tools"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Magic Mirror",
+      "keywords": [
+        "JavaScript"
+      ],
+      "description": "A raspberry pi-powered smart mirror to display my email, to-do list, weather, do my bidding, etc.",
+      "url": "https://qgoehrig.github.io/articles/2018-08/magic-mirror"
+    },
+    {
+      "name": "Forestry Conservaton Undergraduate Research",
+      "keywords": [
+        "Reinforcement Learning"
+      ],
+      "description": "A collaboration between the Biology + CS departments to create a model that simulates the spread of the Chestnut Blight Fungus",
+      "url": "https://tinyurl.com/y4vqucyx"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Local 1st Place - ACM NCNA Programming Contest",
+      "summary": "Member of the highest ranking team at UW-L",
+      "date": "Oct 2017",
+      "awarder": "La Crosse, WI"
+    },
+    {
+      "title": "Association of Facility Engineers Scholarship Recipient ",
+      "summary": "Established to assist high school students who are interested in engineering professions.",
+      "date": "May 2015",
+      "awarder": "Milwaukee, WI"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "education",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
